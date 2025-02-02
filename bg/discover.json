@@ -1,0 +1,28 @@
+{
+  "collectionsColumn": "Колекции",
+  "collectionsColumn/collectionError": "Грешка при зареждане на колекция. Опитайте да обновите.",
+  "bookmarksColumn": "Отметки",
+  "searchBar/placeholder": "Търсене на модели в Hugging Face...",
+  "searchBar/huggingFaceError": "Грешка при търсене, моля опитайте отново малко по-късно.",
+  "sortBy": "Сортирай по",
+  "searchSortKey.default/title": "Най-добро съвпадение",
+  "searchSortKey.likes/title": "Най-харесвани",
+  "searchSortKey.downloads/title": "Най-изтегляни",
+  "searchSortKey.lastModified/title": "Последно обновени",
+  "searchSortKey.createdAt/title": "Последно създадени",
+  "download.option.willFitEstimation.caveat": "Други фактори може да попречат на зареждането (необходима памет, архитектура на модела и др.).",
+  "download.option.willFitEstimation.fullGPUOffload/title": "Пълно GPU използване",
+  "download.option.willFitEstimation.fullGPUOffload/description": "Моделът може да се побере изцяло в GPU паметта. Ще ускори изчисленията.",
+  "download.option.willFitEstimation.partialGPUOffload/title": "Частично GPU използване",
+  "download.option.willFitEstimation.partialGPUOffload/description": "Моделът може да се използва частично на GPU. Често ускорява изчисленията.",
+  "download.option.willFitEstimation.fitWithoutGPU/title": "Вероятно съвместим",
+  "download.option.willFitEstimation.fitWithoutGPU/description": "Моделът вероятно ще се побере в паметта.",
+  "download.option.willFitEstimation.willNotFit/title": "Прекалено голям за системата",
+  "download.option.willFitEstimation.willNotFit/description": "Изтеглянето не се препоръчва поради високи системни изисквания, надвишаващи свободните ресурси на вашата машина.",
+  "download.option.recommended/title": "Препоръчано",
+  "download.option.recommended/description": "Оптимален избор за вашия хардуер.",
+  "download.option.downloaded/title": "Изтеглено",
+  "download.option.downloading/title": "Изтегляне ({{progressPercentile}}%)",
+
+  "feed.action.refresh": "Обнови лентата"
+}

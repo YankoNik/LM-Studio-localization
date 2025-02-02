@@ -1,0 +1,68 @@
+{
+    "tabs/server": "Локален сървър",
+    "tabs/extensions": "LM Runtimes",
+    "loadSettings/title": "Настройки за зареждане",
+    "modelSettings/placeholder": "Изберете модел за конфигуриране",
+	
+    "loadedModels/noModels": "Няма заредени модели",
+	
+    "serverOptions/title": "Опции на сървъра",
+    "serverOptions/configurableTitle": "Конфигурируеми опции",
+    "serverOptions/port/hint": "Задайте мрежовия порт, който ще използва локалният сървър. По подразбиране LM Studio използва порт 1234. Може да се наложи промяна, ако портът е зает.",
+    "serverOptions/port/subtitle": "Порт за слушане",
+    "serverOptions/autostart/title": "Автоматично стартиране на сървъра",
+    "serverOptions/autostart/hint": "Стартиране на локалния сървър автоматично при зареждане на модел",
+    "serverOptions/port/integerWarning": "Номерът на порта трябва да е цяло число",
+    "serverOptions/port/invalidPortWarning": "Портът трябва да е между 1 и 65535",
+    "serverOptions/cors/title": "Активирай CORS",
+    "serverOptions/cors/hint1": "Активирането на CORS (Cross-origin Resource Sharing) позволява на уебсайтове да правят заявки към LM Studio сървъра.",
+    "serverOptions/cors/hint2": "CORS може да е необходим при заявки от уеб страница или разширения като VS Code.",
+    "serverOptions/cors/subtitle": "Разреши CORS заявки",
+    "serverOptions/network/title": "Стартирай в локалната мрежа",
+    "serverOptions/network/subtitle": "Експонирай сървъра към устройства в мрежата",
+    "serverOptions/network/hint1": "Дали да разреши връзки от други устройства в мрежата.",
+    "serverOptions/network/hint2": "Ако не е избрано, сървърът ще слуша само на localhost.",
+    "serverOptions/verboseLogging/title": "Подробно логване",
+    "serverOptions/verboseLogging/subtitle": "Активирай подробно логване за локалния сървър",
+    "serverOptions/contentLogging/title": "Логване на промпти и отговори",
+    "serverOptions/contentLogging/subtitle": "Настройки за логване на заявки/отговори",
+    "serverOptions/contentLogging/hint": "Дали да се логват промпти и/или отговори в лог файла.",
+    "serverOptions/jitModelLoading/title": "Just-in-Time зареждане на модели",
+    "serverOptions/jitModelLoading/hint": "Ако е активирано, заявки за незаредени модели ще ги зарежда автоматично. Ендпойнтът \"/v1/models\" също ще включва незаредени модели.",
+    "serverOptions/loadModel/error": "Грешка при зареждане на модел",
+	
+    "serverLogs/scrollToBottom": "Отиди накрая",
+    "serverLogs/clearLogs": "Изчисти логове ({{shortcut}})",
+    "serverLogs/openLogsFolder": "Отвори папка с логове",
+
+    "runtimeSettings/title": "Настройки на runtime",
+    "runtimeSettings/chooseRuntime/title": "Конфигурирай Runtimes",
+    "runtimeSettings/chooseRuntime/description": "Изберете runtime за всеки формат на модел",
+    "runtimeSettings/chooseRuntime/showAllVersions/label": "Покажи всички версии",
+    "runtimeSettings/chooseRuntime/showAllVersions/hint": "По подразбиране се показват само най-новите версии. Разреши тази опция за да прегледате всички.",
+    "runtimeSettings/chooseRuntime/select/placeholder": "Изберете Runtime",
+
+    "runtimeOptions/uninstall": "Деинсталирай",
+    "runtimeOptions/uninstallDialog/title": "Деинсталиране на {{runtimeName}}?",
+    "runtimeOptions/uninstallDialog/body": "Това действие ще премахне runtime от системата. Необратимо.",
+    "runtimeOptions/uninstallDialog/body/caveats": "Някои файлове може да се изтрият след рестарт на LM Studio.",
+    "runtimeOptions/uninstallDialog/error": "Грешка при деинсталация на runtime",
+    "runtimeOptions/uninstallDialog/confirm": "Потвърди деинсталация",
+    "runtimeOptions/uninstallDialog/cancel": "Отказ",
+    "runtimeOptions/noCompatibleRuntimes": "Няма съвместими runtimes",
+    "runtimeOptions/downloadIncompatibleRuntime": "Този runtime е несъвместим с вашата система.",
+    "runtimeOptions/noRuntimes": "Няма намерени runtimes",
+
+    "inferenceParams/noParams": "Няма конфигурируеми параметри за този тип модел",
+
+    "endpoints/openaiCompatRest/title": "Поддържани ендпойнти (OpenAI-подобни)",
+    "endpoints/openaiCompatRest/getModels": "Списък на заредените модели",
+    "endpoints/openaiCompatRest/postCompletions": "Режим за допълване на текст. OpenAI счита този ендпойнт за 'остарял'.",
+    "endpoints/openaiCompatRest/postChatCompletions": "Чат допълвания. Изпратете чат история за предсказване на следващия отговор",
+    "endpoints/openaiCompatRest/postEmbeddings": "Вграждане на текст. Генериране на текстови вграждания на даден въведен текст. Приема низ или масив от низове",
+
+    "model.createVirtualModelFromInstance": "Запази настройките като виртуален модел",
+    "model.createVirtualModelFromInstance/error": "Грешка при създаване на виртуален модел",
+
+    "apiConfigOptions/title": "Конфигурация на API"
+ }

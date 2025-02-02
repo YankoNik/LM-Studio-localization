@@ -1,0 +1,23 @@
+{
+  "action.skipOnboarding": "Пропусни въвеждането",
+  "action.next": "Напред",
+  "action.back": "Назад",
+  "action.finish": "Готово",
+  "dismissable_rag_modal": {
+    "description": "Сега можете да чатите с ваши документи чрез Retrieval Augmented Generation (RAG). Ето как работи:",
+    "instructions": {
+      "attach_files": {
+        "title": "Прикачи файлове",
+        "description": "Качвайте до 5 файла с общ размер до 30MB. Поддържат се PDF, DOCX, TXT, CSV."
+      },
+      "be_specific": {
+        "title": "Бъдете конкретни",
+          "description": "Споделете детайли, за да се подобри релевантността на информацията."
+        },
+		"get_responses": {
+          "title": "Получавайте отговори",
+          "description": "LLM ще анализира заявката и документите, за да генерира отговор."
+        }
+    }
+  }
+}

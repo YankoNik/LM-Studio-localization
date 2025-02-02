@@ -1,0 +1,24 @@
+{
+  "postDownloadActionExecutor.zipExtraction/status": "Разархивиране...",
+  "finalizing": "Финализиране на изтеглянето...",
+  "noOptions": "Няма налични опции за изтегляне",
+  
+  "deeplink/confirmation/title": "Изтегли модел от Hugging Face 🤗",
+  "deeplink/confirmation/subtitle": "{{modelName}}",
+  "deeplink/confirmation/selectRecommended": "Избери препоръчано",
+  "deeplink/confirmation/selectOption": "Избери опция за изтегляне",
+  "deeplink/confirmation/recommendedOption": "Най-добрият избор за повечето потребители",
+  "deeplink/confirmation/downloadButton": "Изтегли",
+  "deeplink/confirmation/nevermindButton": "Отказ",
+  "deeplink/confirmation/modelPresent/title": "Моделът вече е наличен ✅",
+  "deeplink/confirmation/modelPresent/body": "Този модел вече съществува локално.",
+  "deeplink/confirmation/loadInChat": "Зареди {{ modelName }} в нов чат",
+  "deeplink/error/modelNotFound/title": "Моделът не е намерен",
+  "deeplink/error/modelNotFound/body": "Проверете името на модела или опитайте друга опция за изтегляне.",
+  "deeplink/actions/trySearching": "Търсене на {{modelName}} в Hugging Face",
+
+  "downloadsPanel/title": "Изтегляния",
+  "downloadsPanel/sectionTitle/ongoing": "Активни",
+  "downloadsPanel/sectionTitle/completed": "Завършени"
+}
+  
